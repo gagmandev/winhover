@@ -418,7 +418,11 @@ src/AutoPress.cs        连按引擎（SendInput / PostMessage、按键名、间
 src/AutoKeyDialog.cs    连按设置对话框
 src/AutoTrigger.cs      全局快捷键（低级键鼠钩子 + 连按/长按/即按 判定，支持多个绑定）
 src/AutoTriggerDialog.cs 快捷键设置对话框（一个动作一个标签页）
+src/KeepAlive.cs        保活引擎（定时补按键输入，防挂机踢下线）
+src/DialogHelper.cs     对话框提到最前（托盘程序拿不到前台权限）
 src/Settings.cs         设置读写（%APPDATA%\AmoWinTrans\settings.ini）
 src/Log.cs              日志（默认只记错误）
 src/Program.cs          入口
+
+dist/AmoWinTrans.exe    预编译好的框架依赖版，克隆下来就能直接跑
 ```
