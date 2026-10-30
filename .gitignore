@@ -1,0 +1,17 @@
+# ---- 编译产物 ----
+bin/
+obj/
+
+# 零依赖的 66MB 单文件不进仓库，放 Releases
+dist-standalone/
+
+# ---- 本地工具数据 ----
+# AI 助手的工作记忆，里面有本机环境信息，不进公开仓库
+.workbuddy-ai/
+
+# ---- 编辑器 / 系统 ----
+.vs/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
