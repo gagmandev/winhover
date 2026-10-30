@@ -9,8 +9,8 @@
 
 ## 快速开始
 
-1. 双击 `dist\AmoWinTrans.exe`（单文件，约 250 KB，需要装 **.NET 8 桌面运行时**）。
-   不想装运行时的话，用 `dist-standalone\AmoWinTrans.exe`（零依赖，约 66 MB）。
+1. 双击 `dist\AmoWinTrans.exe`（单文件，约 250 KB，需要 **.NET 8 桌面运行时**）。
+   不想装运行时：跑一次 `publish-portable.bat`，会生成零依赖的 `dist-standalone\AmoWinTrans.exe`（约 66 MB）。
 2. 右下角托盘出现一个圆形图标，弹一次气泡提示。
 3. 把鼠标移到**任意窗口标题栏**上（按钮会出现在标题栏右侧、最小化按钮的左边），
    停在小胶囊上 → 展开面板 → 拖滑块。
